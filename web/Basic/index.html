@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Basic Layout</title>
+  <style>
+    :root{--max-width:900px;--gap:1rem}
+    body{font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;margin:0;display:flex;min-height:100vh;flex-direction:column}
+    header,footer{background:#f5f5f5;padding:1rem}
+    .container{max-width:var(--max-width);margin:0 auto;padding:var(--gap)}
+    nav{display:flex;gap:1rem}
+    main{flex:1;padding:var(--gap)}
+    a{color:inherit;text-decoration:none}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Site Title</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <article>
+        <h2>Welcome</h2>
+        <p>This is a minimal HTML5 layout with a header, nav, main content area, and footer.</p>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">© 2026 Your Name</div>
+  </footer>
+
+  <script>
+    // JS placeholder
+  </script>
+</body>
+</html>

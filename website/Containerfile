@@ -1,3 +1,0 @@
-# Get Deno
-FROM denoland/deno:latest
-
